@@ -9,7 +9,7 @@ const nameOutputEl=document.querySelector("#name-output")
 
 // callback
 function onInput(event) {
-  const value=inputEl.value.trim
+  const value=inputEl.value.trim();
 
   if (value !== "") {
     nameOutputEl.textContent=value;
